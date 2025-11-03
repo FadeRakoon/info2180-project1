@@ -21,24 +21,40 @@ body {
 
 header{
     grid-row:1/2;
+    background-color: white;
+    
 }
 
 header h1{
     float: left;
+    font-size: 18px;
     margin: 18px 0;
 }
 
-header nav ul{
+header ul{
     float:right;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 10px;
+
+    
 }
 
-header nav ul li{
+header li{
     margin-left: 20px;
+    
 }
+
+header a{
+    color: #6b7280;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #5A67DB;
+}
+
 
 main{
     display: grid;
@@ -47,9 +63,14 @@ main{
     gap:20px;
 }
 
+main section{
+    padding: 20px 0;
+}
+
 .overview-hero{
     grid-row: 1/2;
-    padding: 20px
+    padding: 20px;
+    background-color: #E2E8F0;
 }
 
 .overview-hero img{
@@ -63,6 +84,11 @@ main{
     grid-row: 2/3;
 }
 
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
 .cards{
     justify-content: center;
     display: grid;
@@ -74,19 +100,23 @@ main{
     margin:0;
 }
 
-.card- h3{
+.card h3{
     margin:10px,0px,10px,0px;
+    font-size: 21px;
+    color: #48BB78;
 }
 
 .card{
     display: grid;
     grid-template-rows: minmax(30px,12vw);
     place-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 3px 10px 0 rgba(0, 0, 0, 0.25);
     padding: 20px;
     margin: 10px;
     
+    border-color: #E2E8F0;
+
 }
 
 .card-body{
@@ -106,6 +136,15 @@ main{
 
 .testing{
     grid-row:3/4;
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing a{
+    text-decoration: none;
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
 }
 
 .stories{
@@ -123,14 +162,24 @@ main{
     grid-column: 2/3;
 }
 
+.article-body h3{
+    color: #5A67DB;
+    font-size: 18px;
+}
+
+.article-body a{
+    text-decoration: none;
+    color: #5A67DB;
+}
+
 .stories article img{
     grid-column:1/2;
-    width:15vw;
+    width:10vw;
     height: auto;
     border-radius: 8vw;
     padding:10px;
 }
 
-/* .newsletter{
-    just
-} */
+.newsletter{
+    
+}
