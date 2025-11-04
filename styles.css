@@ -140,11 +140,26 @@ main section{
     color: white;
 }
 
+.testing .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 .testing a{
     text-decoration: none;
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
+    padding:10px 20px;
+}
+
+.testing-desciption{
+    grid-column: 1/3;
+}
+
+.cta{
+    grid-column: 3/4;
+    margin: auto;
 }
 
 .stories{
@@ -180,6 +195,6 @@ main section{
     padding:10px;
 }
 
-.newsletter{
+/* .newsletter{
     
-}
+} */
