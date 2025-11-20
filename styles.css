@@ -178,13 +178,13 @@ main section{
 }
 
 .article-body h3{
-    color: #5A67DB;
+    color: #5A67D8;
     font-size: 18px;
 }
 
 .article-body a{
     text-decoration: none;
-    color: #5A67DB;
+    color: #5A67D8;
 }
 
 .stories article img{
@@ -195,6 +195,29 @@ main section{
     padding:10px;
 }
 
-/* .newsletter{
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter form{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.newsletter input{
+
+}
+
+.newsletter .btn{
     
-} */
+    background-color: #5A67D8;
+    padding: 10px 20px;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+}
+
